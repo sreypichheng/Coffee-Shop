@@ -18,12 +18,24 @@
       <li class="nav-item">
         <a class="nav-link" href="?page=about_html">ABOUT</a>
       </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="?page=conects_html">CONECTS</a>
+      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <!-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    </form> -->
   </div>
 </nav>
+<div class="card mb-3">
+  <img src="https://assets.visme.co/templates/banners/thumbnails/i_Coffee-Twitter-Header_full.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+   
+  </div>
+</div>
+
+
 
 

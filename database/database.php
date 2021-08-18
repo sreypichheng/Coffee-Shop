@@ -9,15 +9,17 @@
         $name = $value['name'];
         $price = $value['price'];
         $description = $value['description'];
+        $image= $value['image'];
+       
         $time = date("Y-m-d")." ".date("h:i:s");
-        return db()->query("INSERT INTO coffee(name, price,description, date) VALUE('$name','$price','$descrpition','$time')");
+        return db()->query("INSERT INTO coffee(name, price,description,image, date) VALUE('$name','$price','$image','$descrpition','$time')");
     }
     
-    function createAbout($value) {
-        $name = $value['name'];
-        $time = date("Y-m-d")." ".date("h:i:s");
-        return db()->query("INSERT INTO about(name, date) VALUE('$name', '$time')");
-    }
+    // function createAbout($value) {
+    //     $name = $value['name'];
+    //     $time = date("Y-m-d")." ".date("h:i:s");
+    //     return db()->query("INSERT INTO about(name, date) VALUE('$name', '$time')");
+    // }
 
     
     function selectAllCoffees() {
@@ -25,9 +27,9 @@
     }
 
    
-    function selectAllAbouts() {
-        return db()->query("SELECT * FROM about ORDER BY about_id DESC");
-    }
+    // function selectAllAbouts() {
+    //     return db()->query("SELECT * FROM about ORDER BY about_id DESC");
+    // }
    
     function selectOneCoffee($id) {
         return db()->query("SELECT * FROM coffee WHERE coffee_id = $id");
@@ -43,21 +45,22 @@
         return db()->query("DELETE FROM coffee WHERE coffee_id = $id");
     }
 
-    function deleteAbout($id) {
-        return db()->query("DELETE FROM about WHERE about_id = $id");
-    }
+    // function deleteAbout($id) {
+    //     return db()->query("DELETE FROM about WHERE about_id = $id");
+    // }
 
 
     function updateCoffee($value) {
         $name = $value['name'];
         $price = $value['price'];
+        $description= $value['description'];
         $id = $value['coffee_id'];
-        return db()->query("UPDATE coffee SET title = '$name', price='$price' WHERE coffee_id = $id");
+        return db()->query("UPDATE coffee SET title = '$name', price='$price', description='$description' WHERE coffee_id = $id");
     }
 
     
-    function updateAbout($value) {
-        $name = $value['name'];
-        $id = $value['about_id'];
-        return db()->query("UPDATE about SET name = '$name' WHERE about_id = $id");
-    }
+    // function updateAbout($value) {
+    //     $name = $value['name'];
+    //     $id = $value['about_id'];
+    //     return db()->query("UPDATE about SET name = '$name' WHERE about_id = $id");
+    // }
