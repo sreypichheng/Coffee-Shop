@@ -1,6 +1,6 @@
 
 
-<nav class="navbar navbar-expand-lg navbar-warning  bg-warning">
+<nav class="navbar navbar-expand-lg navbar-white  bg-white">
 <a class="navbar-brand" href="#">
     <img src="https://freepikpsd.com/media/2019/10/coffee-logo-png-7-Transparent-Images.png" width="40" height="40" class="d-inline-block align-top" alt="">
    COFFEE SHOP
@@ -29,12 +29,7 @@
     </form> -->
   </div>
 </nav>
-<div class="card mb-3">
-  <img src="https://assets.visme.co/templates/banners/thumbnails/i_Coffee-Twitter-Header_full.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-   
-  </div>
-</div>
+
 
 
 

@@ -9,10 +9,11 @@
         $name = $value['name'];
         $price = $value['price'];
         $description = $value['description'];
-        $image= $value['image'];
+        $image= $_FILES['file']['name'];
        
         $time = date("Y-m-d")." ".date("h:i:s");
-        return db()->query("INSERT INTO coffee(name, price,description,image, date) VALUE('$name','$price','$image','$descrpition','$time')");
+        return db()->query("INSERT INTO `coffee`( `name`, `price`, `description`, `user_id`, `brand_id`, `image`) 
+        VALUES ('$name','$price','$description',1,1,'$image')");
     }
     
     // function createAbout($value) {
