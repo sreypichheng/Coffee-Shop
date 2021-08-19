@@ -1,6 +1,6 @@
 
 
-<nav class="navbar navbar-expand-lg navbar-white  bg-white">
+<nav class="navbar navbar-expand-lg navbar-warning  bg-warning">
 <a class="navbar-brand" href="#">
     <img src="https://freepikpsd.com/media/2019/10/coffee-logo-png-7-Transparent-Images.png" width="40" height="40" class="d-inline-block align-top" alt="">
    COFFEE SHOP
@@ -23,10 +23,9 @@
         <a class="nav-link" href="?page=conects_html">CONECTS</a>
       </li>
     </ul>
-    <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
+    <form class="form-inline my-2 my-lg-0">
+      <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+    </form>
   </div>
 </nav>
 

@@ -37,11 +37,11 @@
     }
 
    
-    function selectOneAbout($id) {
-        return db()->query("SELECT * FROM about WHERE about_id = $id");
-    }
+    // function selectOneAbout($id) {
+    //     return db()->query("SELECT * FROM about WHERE about_id = $id");
+    // }
 
-   
+   // delete
     function deleteCoffee($id) {
         return db()->query("DELETE FROM coffee WHERE coffee_id = $id");
     }
@@ -50,18 +50,26 @@
     //     return db()->query("DELETE FROM about WHERE about_id = $id");
     // }
 
-
+// Update
     function updateCoffee($value) {
         $name = $value['name'];
-        $price = $value['price'];
+        $price = $value['price']; 
         $description= $value['description'];
+        $image= $value['image'];
         $id = $value['coffee_id'];
-        return db()->query("UPDATE coffee SET title = '$name', price='$price', description='$description' WHERE coffee_id = $id");
+        return db()->query("UPDATE coffee SET name = '$name', price='$price',image='$image', description='$description' WHERE coffee_id = $id");
     }
 
-    
-    // function updateAbout($value) {
-    //     $name = $value['name'];
-    //     $id = $value['about_id'];
-    //     return db()->query("UPDATE about SET name = '$name' WHERE about_id = $id");
-    // }
+    //research
+    function getAll(){
+        return db()->query("SELECT * FROM coffee ORDER BY id DESC");
+    }
+
+    function getOne($id){
+        return db()->query("SELECT * FROM coffee WHERE id = $id");
+    }
+
+    function searchByname($value){
+        $name= $value['search'];
+        return db()->query("SELECT * FROM coffee WHERE name LIKE '%$name%'");
+    }

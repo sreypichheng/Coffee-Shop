@@ -7,13 +7,26 @@
            <div class="input-group mb-3">
               <input type="text" class="form-control" placeholder="Search by COFFEE" name = "search">
               <div class="input-group-append">
-                <button class="btn btn-warning" type="submit">research</button>
+                <button class="btn btn-warning" type="submit">Search</button>
               </div>
            </div>
         </form>
+
+
         
 <?php
     require_once('database/database.php');
+    $coffees="";
+    if($_SERVER['REQUEST_METHOD']== 'POST'){
+        //search
+        $coffees = searchByname($_POST);
+    }else{
+        //select
+        $coffees = getAll();
+
+    }
+
+    
     $coffees = selectAllcoffees();
     foreach($coffees as $coffee):
     ?>

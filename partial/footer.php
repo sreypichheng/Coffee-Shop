@@ -39,7 +39,7 @@
             <a href="#!">
               <div
                 class="mask"
-                style="background-color: rgba(251, 251, 251, 0.2);"
+                style="background-color: ;"
               ></div>
             </a>
           </div>

@@ -19,7 +19,7 @@
                 <input type="text" class="form-control" value="<?= $coffee['description'] ?>" name="description">
             </div>
             <div class="form-group">
-                <input type="file">
+                <input type="hidden" value="<?= $coffee['image'] ?> "  name="image">
             </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block">Update</button>
