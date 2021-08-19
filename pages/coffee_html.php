@@ -7,7 +7,7 @@
            <div class="input-group mb-3">
               <input type="text" class="form-control" placeholder="Search by COFFEE" name = "search">
               <div class="input-group-append">
-                <button class="btn btn-success" type="submit">research</button>
+                <button class="btn btn-warning" type="submit">research</button>
               </div>
            </div>
         </form>
