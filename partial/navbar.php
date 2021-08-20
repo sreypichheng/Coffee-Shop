@@ -19,9 +19,6 @@
         <a class="nav-link" href="?page=about_html">ABOUT</a>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link" href="?page=user_html">USER</a>
-      </li>
 
       <li class="nav-item">
         <a class="nav-link" href="?page=conects_html">CONECTS</a>

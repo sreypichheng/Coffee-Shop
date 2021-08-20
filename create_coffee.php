@@ -1,5 +1,8 @@
 <?php require_once('partial/header.php'); ?>
     <div class="container p-4">
+    <div class="d-flex justify-content-end p-3">
+            <button class="btn btn-info" onclick="window.history.back();">&#8592; Back</button>
+             </div>
     <?php
     
             if(isset($_POST['submit'])){
@@ -28,6 +31,7 @@
             }
 
 ?>
+<h3 style="color:blue; ">CREATE COFFEE</h3>
         <form action="#" method="post" enctype="multipart/form-data" style="background">
        
             <div class="form-group">

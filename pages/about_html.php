@@ -1,6 +1,6 @@
 
 <div class="card mb-3">
-  <img src="https://www.pngall.com/wp-content/uploads/2016/04/Coffee-Beans-PNG-Clipart.png" class="card-img-top" alt="...">
+  <img src="https://allinforthe99percent.com/wp-content/uploads/2021/06/Fresh-coffee.jpg" class="card-img-top" alt="...">
   <div class="card-body">
    
   </div>
