@@ -10,8 +10,9 @@
             include_once('pages/about_html.php');
         }elseif($_GET['page'] == "conects_html"){
             include_once('pages/conects_html.php');
-
-        }    
+        }elseif($_GET['page']== "user_html"){
+            include_once('pages/user_html.php');
+        }   
     }else {
         include_once('pages/home_html.php');
     }

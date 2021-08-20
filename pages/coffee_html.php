@@ -1,7 +1,7 @@
 <div class="container">
 <div class="container p-4">
         <div class="d-flex justify-content-end p-2">
-            <a href="create_coffee.php" class="btn btn-primary">Add +</a>
+            <a href="create_coffee.php" class="btn btn-primary">Add Coffee +</a>
         </div>
         <form action="" method="post">
            <div class="input-group mb-3">
@@ -22,12 +22,12 @@
         $coffees = searchByname($_POST);
     }else{
         //select
-        $coffees = getAll();
+        $coffees = selectAllCoffees();
 
     }
 
     
-    $coffees = selectAllcoffees();
+   
     foreach($coffees as $coffee):
     ?>
     <div class="card mb-3" style="max-width: 100%;">

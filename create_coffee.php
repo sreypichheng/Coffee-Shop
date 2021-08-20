@@ -13,12 +13,14 @@
 
                 if($filetype != "image/jpeg"){
                     echo "Only JPG images allowed";
+
                 }else{
                     move_uploaded_file($tmp_name,$dir.$filename);
                     
                 }
                 require_once('database/database.php');
                 $isCreated = createCoffee($_POST);
+
                 if($isCreated){
                     header('Location: index.php?page=coffee_html');
                 }
@@ -41,7 +43,7 @@
                 <textarea name="description" id="" cols="30" rows="10" style="width:100%; height:80px"></textarea>
             </div>
             <div class="form-group">
-               <input type="submit" name="submit">
+               <input class="btn btn-warning" type="submit" name="submit">
             </div>
         </form>
     </div>
