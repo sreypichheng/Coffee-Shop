@@ -5,6 +5,6 @@
         $isCreated = updateAbout($_POST);
 
         if($isCreated){
-            header('Location: index.php?page=about_html');
+            header('Location: index.php?page=user_html');
         }
     }

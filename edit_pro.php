@@ -4,8 +4,8 @@
             require_once('database/database.php');
             $id = $_GET['id'];
 
-            $abouts = selectOneAbout($id);
-            foreach($abouts as $about):
+            $users = selectOneUser($id);
+            foreach($users as $user):
         ?>
         <form action="edit_pro_model.php" method="post">
             <input type="hidden" class="form-control" value="<?= $about['about_id'] ?>" name="about_id">

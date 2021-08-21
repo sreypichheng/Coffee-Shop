@@ -28,16 +28,17 @@ COFFEE. Consider God's new mercies and compassions, Offer thanks to him,
        
             <form action="create_action.php" method="post">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="username" name="username">
+                    <h3>Name : Sreypich Heng</h2>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="email" name="email">
+                    <h4>Email : sreypich.heng@gamil.com</h3>
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" placeholder="password" name="password">
+                    <p>Address : #31D, St. 371, Tropeang Chhuk (Borey Solar), 
+                      Sangkat Toek Thla, Khan Sen Sok, Phnom Penh</p>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                   <p>Tel : 096 27 93 043</p>
                 </div>
             </form>
     </div>

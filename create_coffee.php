@@ -41,7 +41,7 @@
                 <input type="number" class="form-control" placeholder="Coffee Price" name="price">
             </div>
             <div class="form-group">
-          <input type="file" name="file" >
+                <input type="file" name="file" >
             </div>
             <div class="form-group">
                 <textarea name="description" id="" cols="30" rows="10" style="width:100%; height:80px"></textarea>
