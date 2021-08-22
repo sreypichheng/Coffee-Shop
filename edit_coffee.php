@@ -1,5 +1,8 @@
 <?php require_once('partial/header.php'); ?>
     <div class="container p-4">
+    <div class="d-flex justify-content-end p-3">
+    <button class="btn btn-info" onclick="window.history.back();">&#8592; Back</button>
+    </div>
         <?php 
             require_once('database/database.php');
             $id = $_GET['id'];

@@ -21,7 +21,7 @@ Doppio espresso is a double shot which is extracted using double the amount of g
 This results in 60 ml of drink, double the amount of a single shot espresso. Doppio is Italian multiplier, meaning "double". ... At most cafés outside of Italy, a doppio is the standard shot.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       <a href="#" class="btn btn-primary"> Price 10$</a>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="pages/about_html.php" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
   <div class="card">
@@ -34,7 +34,7 @@ Cold brew coffee has gained popularity among coffee drinkers in recent years. In
  This method makes the drink less bitter than hot coffee.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       <a href="#" class="btn btn-primary">Price 6$</a>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="pages/about_html.php" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
   <div class="card">
@@ -47,7 +47,7 @@ A traditional cappuccino has an even distribution of espresso, steamed milk, and
 A cappuccino is distinctly layered, while in a latte the espresso and steamed milk are blended together.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       <a href="#" class="btn btn-primary">Price 12$</a>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="pages/about_html.php" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
 </div>
@@ -62,7 +62,7 @@ Non. Le café au lait est une très bonne source de calcium de protéines et de 
 Aussi, il faudrait limiter l'ajout de sucres dans le café.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       <a href="#" class="btn btn-primary">Price 10$</a>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="pages/about_html.php" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
   <div class="card">
@@ -75,7 +75,7 @@ A variant is white caffè mocha, made with white chocolate instead of milk or da
 This is the same as a cup of coffee mixed with hot chocolate.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       <a href="#" class="btn btn-primary">Price 9$</a>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="pages/about_html.php" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
   <div class="card">
@@ -88,7 +88,7 @@ Our Latte Macchiato and classic Latte (also called a Caffè Latte) have the same
 Latte Macchiato is our most espresso forward latte, while Latte has a more balanced, delicate flavor.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       <a href="#" class="btn btn-primary">Price 8$</a>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="pages/about_html.php" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
 </div>
