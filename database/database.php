@@ -63,16 +63,9 @@
     }
      
     
-    function selectAllUsers() {
-        return db()->query("SELECT * FROM user ORDER BY user_id DESC");
-    }
 
+    //read more
+    function readMore($text,$number){
+        return substr($text,0,$number);    
       
-    function selectOneUser($id) {
-        return db()->query("SELECT * FROM user WHERE user_id = $id");
-    }
- 
-   // delete
-    function deleteUser($id) {
-        return db()->query("DELETE FROM user WHERE user_id = $id");
     }

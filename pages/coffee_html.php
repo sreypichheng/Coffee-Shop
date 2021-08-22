@@ -30,6 +30,7 @@
     
    
     foreach($coffees as $coffee):
+      $description = readMore($coffee['description'], 20);
     ?>
     <div class="card mb-3" style="max-width: 100%;">
   <div class="row no-gutters">
@@ -40,7 +41,9 @@
       <div class="card-body">
         <h5 class="card-title"><?= $coffee['name']; ?></h5>
         <p class="card-text"><?=$coffee['price'];?>$</p>
-        <p class="card-text"><?=$coffee['description'];?></p>
+        <!-- <p class="card-text"><?=$coffee['description'];?></p> -->
+        <p><?=$description?>....<a href="detail_coffee.php?id=<?=$coffee['coffee_id']?>" class="btn  btn-primary btn-sm">Readmore</a></p>
+
         <p class="card-text"><small class="text-muted"><?=$coffee['date'];?></small></p>
         <a href="edit_coffee.php?id=<?= $coffee['coffee_id'] ?>" class="btn btn-primary btn-sm mr-2">Edit</a>
         <a href="delet_coffee.php?id=<?= $coffee['coffee_id'] ?>" class="btn btn-danger btn-sm">delete</i></a>
